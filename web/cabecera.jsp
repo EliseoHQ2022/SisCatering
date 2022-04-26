@@ -8,7 +8,7 @@
                                         <img src="./imagenes/usuario.png" alt="user-image" class="rounded-circle">
                                     </span>
                                     <span>
-                                        <span class="account-user-name"><?php echo $_SESSION['usuario']; ?></span>
+                                        <span class="account-user-name">Admin</span>
                                         <span class="account-position">Admin</span>
                                     </span>
                                 </a>
@@ -17,7 +17,7 @@
                                    
 
                                     <!-- item-->
-                                    <a href="cerrar.php" class="dropdown-item notify-item">
+                                    <a href="cerrar.jsp" class="dropdown-item notify-item">
                                         <i class="uil-arrow-circle-left"></i>
                                         <span>Salir</span>
                                     </a>
