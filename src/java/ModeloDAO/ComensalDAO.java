@@ -11,7 +11,11 @@ import java.util.List;
 import java.util.Set;
 
 public class ComensalDAO implements IComensal {
+<<<<<<< HEAD
  Conexion cn=new Conexion();
+=======
+    Conexion cn=new Conexion();
+>>>>>>> ff43b59 (Ultima actualizacion)
     Connection con;
     PreparedStatement ps;
     ResultSet rs;

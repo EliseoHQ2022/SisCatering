@@ -1,5 +1,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,6 +30,9 @@
                     <!-- Topbar Start -->
                     <%@ include file="../cabecera.jsp" %>
                     <!-- end Topbar -->
+=======
+
+>>>>>>> ff43b59 (Ultima actualizacion)
 
                     <!-- Start Content-->
                     <div class="container-fluid">
@@ -94,7 +98,11 @@
                                                     <label class="col-sm-3 control-label">&nbsp;</label>
                                                     <div class="col-sm-6">
                                                         <input type="submit" name="accion" class="btn btn-sm btn-primary" value="Guardar">
+<<<<<<< HEAD
                                                         <a href="ControladorProducto?accion=listar" class="btn btn-sm btn-danger">Cancelar</a>
+=======
+                                                        <a href="./index.jsp?page=producto" class="btn btn-sm btn-danger">Cancelar</a>
+>>>>>>> ff43b59 (Ultima actualizacion)
                                                     </div>
                                                 </div>
                                             </form>
@@ -108,6 +116,7 @@
 
                             </div> <!-- container -->
 
+<<<<<<< HEAD
                         </div> <!-- content -->
 
                         <!-- Footer Start -->
@@ -143,3 +152,6 @@
                 <!-- end demo js-->
                 </body>
                 </html>
+=======
+                       
+>>>>>>> ff43b59 (Ultima actualizacion)

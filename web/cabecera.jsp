@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+>>>>>>> ff43b59 (Ultima actualizacion)
 <div class="navbar-custom">
                         <ul class="list-unstyled topbar-menu float-end mb-0">
                             
@@ -8,7 +12,11 @@
                                         <img src="./imagenes/usuario.png" alt="user-image" class="rounded-circle">
                                     </span>
                                     <span>
+<<<<<<< HEAD
                                         <span class="account-user-name">Admin</span>
+=======
+                                        <span class="account-user-name">${nombre}</span>
+>>>>>>> ff43b59 (Ultima actualizacion)
                                         <span class="account-position">Admin</span>
                                     </span>
                                 </a>
@@ -17,7 +25,11 @@
                                    
 
                                     <!-- item-->
+<<<<<<< HEAD
                                     <a href="cerrar.jsp" class="dropdown-item notify-item">
+=======
+                                    <a href="login.jsp" class="dropdown-item notify-item">
+>>>>>>> ff43b59 (Ultima actualizacion)
                                         <i class="uil-arrow-circle-left"></i>
                                         <span>Salir</span>
                                     </a>

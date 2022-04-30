@@ -6,6 +6,7 @@
 <%@page import="java.util.List"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,6 +36,9 @@
                     <!-- Topbar Start -->
                      <%@ include file="../cabecera.jsp" %>
                     <!-- end Topbar -->
+=======
+
+>>>>>>> ff43b59 (Ultima actualizacion)
 
                     <!-- Start Content-->
                     <div class="container-fluid">
@@ -50,7 +54,11 @@
                                     
 
 
+<<<<<<< HEAD
                                     <a href="ControladorComensal?accion=agregar" class="btn btn-primary btn-sm">Nuevo comensal</a>
+=======
+                                    <a href="./index.jsp?page=agregarcomensal" class="btn btn-primary btn-sm">Nuevo comensal</a>
+>>>>>>> ff43b59 (Ultima actualizacion)
 
                                     <table class="mb-0 table" id="mitabla">
                                         <thead>
@@ -117,6 +125,7 @@
                         
                     </div> <!-- container -->
 
+<<<<<<< HEAD
                 </div> <!-- content -->
 
                 <!-- Footer Start -->
@@ -152,3 +161,6 @@
         <!-- end demo js-->
     </body>
 </html>
+=======
+               
+>>>>>>> ff43b59 (Ultima actualizacion)

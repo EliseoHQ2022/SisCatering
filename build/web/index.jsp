@@ -36,6 +36,7 @@
                     <!-- Start Content-->
 
                    
+<<<<<<< HEAD
 
                     <div class="container-fluid">
                         
@@ -141,6 +142,10 @@
                         
                         
                     </div> <!-- container -->
+=======
+                    <jsp:include page="contenido.jsp"/>
+                    <!-- container -->
+>>>>>>> ff43b59 (Ultima actualizacion)
 
                 </div> <!-- content -->
 
@@ -174,7 +179,11 @@
         <script src="js/ui/component.todo.js"></script>
 
         <!-- demo app -->
+<<<<<<< HEAD
         <script src="js/pages/demo.dashboard-crm.js"></script>
+=======
+        <script src="js/demo.dashboard-crm.js"></script>
+>>>>>>> ff43b59 (Ultima actualizacion)
         <!-- end demo js-->
     </body>
 </html>
