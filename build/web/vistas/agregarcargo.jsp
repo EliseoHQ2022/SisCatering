@@ -29,7 +29,7 @@
                                 <label class="col-sm-3 control-label">&nbsp;</label>
                                 <div class="col-sm-6">
                                     <input type="submit" name="accion" class="btn btn-sm btn-primary" value="Guardar">
-                                    <a href="./index.jsp?page=area" class="btn btn-sm btn-danger">Cancelar</a>
+                                    <a href="./index.jsp?page=cargo" class="btn btn-sm btn-danger">Cancelar</a>
                                 </div>
                             </div>
                         </form>

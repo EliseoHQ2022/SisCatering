@@ -51,7 +51,14 @@ $(document).ready(function() {
                             </div>
                         </form>
 
-
+                    <br>
+                        <div class="col-sm-3 text-center bg-success">
+                       
+                            <span><img src="imagenes/registrado.png" alt="" height="60"></span>
+                            <br>
+                             <span>ELISEO HUAMAN QUISPE, consumo registrado correctamente</span>
+                       
+                    </div> 
 
 
                 </div>

@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "ControladorComensal", urlPatterns = {"/ControladorComensal"})
 public class ControladorComensal extends HttpServlet {
- String listar="vistas/comensal.jsp";
+    String listar="vistas/comensal.jsp";
     String agregar="vistas/agregarcomensal.jsp";
     String editar="vistas/editarcomensal.jsp";
   

@@ -7,6 +7,12 @@
     <c:when test="${action eq 'comensal'}">
         <jsp:include page="vistas/comensal.jsp"/>
     </c:when>
+    <c:when test="${action eq 'familia'}">
+        <jsp:include page="vistas/familia.jsp"/>
+    </c:when>
+    <c:when test="${action eq 'agregarfamilia'}">
+        <jsp:include page="vistas/agregarfamilia.jsp"/>
+    </c:when>
     <c:when test="${action eq 'producto'}">
         <jsp:include page="vistas/producto.jsp"/>
     </c:when>
@@ -24,6 +30,9 @@
     </c:when>
     <c:when test="${action eq 'agregararea'}">
         <jsp:include page="vistas/agregararea.jsp"/>
+    </c:when>
+    <c:when test="${action eq 'agregarcargo'}">
+        <jsp:include page="vistas/agregarcargo.jsp"/>
     </c:when>
     <c:when test="${action eq 'registrarventa'}">
         <jsp:include page="vistas/registrarventa.jsp"/>

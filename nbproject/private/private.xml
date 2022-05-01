@@ -3,64 +3,28 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/menu.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Area.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/producto.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorComensal.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Configuracion/Conexion.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/ModeloDAO/ComensalDAO.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/comensal.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Producto.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarproducto.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Cargo.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarcomensal.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorProducto.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Familia.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Comensal.java</file>
-=======
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/js/bootstrap.js</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/js/component.todo.js</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Usuario.java</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/index.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Area.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/producto.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Configuracion/Conexion.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/menu.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Interfaces/IComensal.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/contenido.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorComensal.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregararea.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/familia.jsp</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/ModeloDAO/ComensalDAO.java</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/cabecera.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorVenta.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarproducto.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Cargo.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/login.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/area.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/bootstrap.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/app-dark.min.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/bootstrap-theme.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/bootstrap-theme.min.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/ModeloDAO/UsuarioDAO.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Comensal.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/icons.min.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/app.min.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/js/bootstrap.min.js</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/menu.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/style_nav.css</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorComensal.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/contenido.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregararea.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarfamilia.jsp</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/comensal.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Producto.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/dashboard.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarproducto.jsp</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/area.jsp</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/cargo.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/js/demo.dashboard-crm.js</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarcomensal.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/venta.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorProducto.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/ModeloDAO/AreaDAO.java</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/registrarventa.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorUsuario.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Interfaces/IUsuario.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Controlador/ControladorArea.java</file>
             <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/vistas/agregarcargo.jsp</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Modelo/Familia.java</file>
-            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/web/css/bootstrap.min.css</file>
->>>>>>> ff43b59 (Ultima actualizacion)
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/ModeloDAO/UsuarioDAO.java</file>
+            <file>file:/D:/Mega/Eliseo%20Estudio/Marzo%202022/Web%20Integrado/Codificacion/SisCatering/src/java/Interfaces/IArea.java</file>
         </group>
     </open-files>
 </project-private>

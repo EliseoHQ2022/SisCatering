@@ -1,38 +1,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         <title>Registro de productos</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="imagenes/icon.ico">
 
-        <!-- App css -->
-        <link href="./css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="./css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
-        <link href="./css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
-    </head>
-     <body class="loading" data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false, "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'>
-        <!-- Begin page -->
-        <div class="wrapper">
-            <!-- ========== Left Sidebar Start ========== -->
-            <%@ include file="../menu.jsp" %>
-            <!-- Left Sidebar End -->
-
-            <!-- ============================================================== -->
-            <!-- Start Page Content here -->
-            <!-- ============================================================== -->
-
-            <div class="content-page">
-                <div class="content">
-                    <!-- Topbar Start -->
-                     <%@ include file="../cabecera.jsp" %>
-                    <!-- end Topbar -->
-=======
-
->>>>>>> ff43b59 (Ultima actualizacion)
 
                     <!-- Start Content-->
                     <div class="container-fluid">
@@ -46,11 +14,11 @@
                                     <h4 class="header-title">Registro de productos</h4>
                                     
                                    
-<<<<<<< HEAD
-                                    <a href="ControladorProducto?accion=agregar" class="btn btn-primary btn-sm">Nuevo producto</a>
-=======
+
+                                    
+
                                     <a href="./index.jsp?page=agregarproducto" class="btn btn-primary btn-sm">Nuevo producto</a>
->>>>>>> ff43b59 (Ultima actualizacion)
+
 
                                     <table class="mb-0 table" id="mitabla">
                                         <thead>
@@ -107,42 +75,5 @@
                         
                     </div> <!-- container -->
 
-<<<<<<< HEAD
-                </div> <!-- content -->
 
-                <!-- Footer Start -->
-                <footer class="footer">
-                     <%@ include file="../piepagina.jsp" %>
-                </footer>
-                <!-- end Footer -->
-
-            </div>
-
-            <!-- ============================================================== -->
-            <!-- End Page content -->
-            <!-- ============================================================== -->
-
-
-        </div>
-        <!-- END wrapper -->
-
-
-       
-        <div class="rightbar-overlay"></div>
-        <!-- /End-bar -->
-
-
-        <!-- bundle -->
-        <script src="./js/vendor.min.js"></script>
-        <script src="./js/app.min.js"></script>
-   
-
-       
-        <!-- demo app -->
-        <script src="./js/pages/demo.dashboard-crm.js"></script>
-        <!-- end demo js-->
-    </body>
-</html>
-=======
-               
->>>>>>> ff43b59 (Ultima actualizacion)
+              

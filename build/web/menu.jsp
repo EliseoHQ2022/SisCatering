@@ -1,11 +1,11 @@
 <div class="leftside-menu">
     
                 <!-- LOGO -->
-<<<<<<< HEAD
+
                 <a href="index.jsp" class="logo text-center logo-light">
-=======
+
                 <a href="index.jsp?page=dashboard" class="logo text-center logo-light">
->>>>>>> ff43b59 (Ultima actualizacion)
+
                     <span class="logo-lg">
                         <img src="./imagenes/logo.png" alt="" height="50">
                     </span>
@@ -15,11 +15,11 @@
                 </a>
 
                 <!-- LOGO -->
-<<<<<<< HEAD
+
                 <a href="index.jsp" class="logo text-center logo-dark">
-=======
+
                 <a href="index.jsp?page=dashboard" class="logo text-center logo-dark">
->>>>>>> ff43b59 (Ultima actualizacion)
+
                     <span class="logo-lg">
                         <img src="./imagenes/logo.png" alt="" height="50">
                     </span>
@@ -42,16 +42,10 @@
                             </a>
                             <div class="collapse" id="sidebarDashboards">
                                 <ul class="side-nav-second-level">
-                                    <li>
-<<<<<<< HEAD
-                                        <a href="ControladorProducto?accion=listar">Productos</a>
-                                    </li>
                                    <li>
-                                        <a href="cargo.jps">Cargos</a>
+                                        <a href="index.jsp?page=familia">Familia</a>
                                     </li>
                                     <li>
-                                        <a href="areas.jps">Areas</a>
-=======
                                         <a href="index.jsp?page=producto">Productos</a>
                                     </li>
                                    <li>
@@ -59,7 +53,12 @@
                                     </li>
                                     <li>
                                         <a href="index.jsp?page=area">Areas</a>
->>>>>>> ff43b59 (Ultima actualizacion)
+
+                                    </li>
+                                    
+                                     <li>
+                                       
+                                        <a href="index.jsp?page=comensal">Comensales</a>
                                     </li>
                                 </ul>
                             </div>
@@ -72,18 +71,11 @@
                             </a>
                             <div class="collapse" id="sidebarDashboards2">
                                 <ul class="side-nav-second-level">
-                                    <li>
-<<<<<<< HEAD
-                                        <a href="ControladorComensal?accion=listar">Comensales</a>
-                                    </li>
-                                    <li>
-                                        <a href="venta.jsp">Venta</a>
-=======
-                                        <a href="index.jsp?page=comensal">Comensales</a>
-                                    </li>
+                                   
+                                   
                                     <li>
                                         <a href="index.jsp?page=venta">Venta</a>
->>>>>>> ff43b59 (Ultima actualizacion)
+
                                     </li>
                                     
                                 </ul>
@@ -97,18 +89,15 @@
                             </a>
                             <div class="collapse" id="sidebarDashboards3">
                                 <ul class="side-nav-second-level">
+                                   
                                     <li>
-<<<<<<< HEAD
-                                        <a href="reportepedido.php">Ventas por comensal</a>
-                                    </li>
-                                    <li>
-                                        <a href="productosvendidos.php">Venta por producto</a>
-=======
+                                        
+
                                         <a href="index.jsp?page=reportecomensal">Ventas por comensal</a>
                                     </li>
                                     <li>
                                         <a href="index.jsp?page=reporteproducto">Venta por producto</a>
->>>>>>> ff43b59 (Ultima actualizacion)
+
                                     </li>
                                     
                                 </ul>

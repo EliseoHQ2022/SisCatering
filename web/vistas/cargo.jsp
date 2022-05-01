@@ -13,7 +13,7 @@
                                     <h4 class="header-title">Registro de cargos</h4>
                                     
                                    
-                                    <a href="./index.jsp?page=agregarcargo" class="btn btn-primary btn-sm">Nueva area</a>
+                                    <a href="./index.jsp?page=agregarcargo" class="btn btn-primary btn-sm">Nuevo cargo</a>
 
                                     <table class="mb-0 table" id="mitabla">
                                         <thead>
