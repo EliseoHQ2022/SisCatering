@@ -1,6 +1,7 @@
-
 package Controlador;
 
+import Modelo.Comensal;
+import ModeloDAO.ComensalDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -16,23 +17,64 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "ControladorComensal", urlPatterns = {"/ControladorComensal"})
 public class ControladorComensal extends HttpServlet {
-    String listar="vistas/comensal.jsp";
-    String agregar="vistas/agregarcomensal.jsp";
-    String editar="vistas/editarcomensal.jsp";
-  
+
+    String listar = "index.jsp?page=comensal";
+    String editar = "index.jsp?page=agregarcomensal";
+    Comensal p = new Comensal();
+    ComensalDAO dao = new ComensalDAO();
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String acceso="";
-        String action=request.getParameter("accion");
-        if (action.equalsIgnoreCase("listar")){
-            acceso=listar;
-        }else if (action.equalsIgnoreCase("agregar")){
-            acceso=agregar;
-        }else if (action.equalsIgnoreCase("guardar")){
-            
+        String acceso = "";
+        String action = request.getParameter("accion");
+        if (action.equalsIgnoreCase("listar")) {
+            acceso = listar;
+        } else if (action.equalsIgnoreCase("guardar")) {
+            String Nombre = request.getParameter("TxtNombre");
+            int IdCar = Integer.parseInt(request.getParameter("CboCargo"));
+            int IdArea = Integer.parseInt(request.getParameter("CboArea"));
+            String DNI = request.getParameter("TxtDNI");
+            String Fotocheck = request.getParameter("TxtFotocheck");
+            String FechaN = request.getParameter("TxtFechaN");
+            String Sexo = request.getParameter("CboSexo");
+            p.setIdCar(IdCar);
+            p.setIdArea(IdArea);
+            p.setDNI(DNI);
+            p.setFotocheck(Fotocheck);
+            p.setNombre(Nombre);
+            p.setFechaN(FechaN);
+            p.setSexo(Sexo);
+            dao.agregar(p);
+            acceso = listar;
+        } else if (action.equalsIgnoreCase("editar")) {
+            request.setAttribute("idcomensal", request.getParameter("id"));
+            acceso = editar;
+        } else if (action.equalsIgnoreCase("Actualizar")) {
+            int IdCom = Integer.parseInt(request.getParameter("TxtId"));
+            String Nombre = request.getParameter("TxtNombre");
+            int IdCar = Integer.parseInt(request.getParameter("CboCargo"));
+            int IdArea = Integer.parseInt(request.getParameter("CboArea"));
+            String DNI = request.getParameter("TxtDNI");
+            String Fotocheck = request.getParameter("TxtFotocheck");
+            String FechaN = request.getParameter("TxtFechaN");
+            String Sexo = request.getParameter("CboSexo");
+            p.setIdCom(IdCom);
+            p.setIdCar(IdCar);
+            p.setIdArea(IdArea);
+            p.setDNI(DNI);
+            p.setFotocheck(Fotocheck);
+            p.setNombre(Nombre);
+            p.setFechaN(FechaN);
+            p.setSexo(Sexo);
+            dao.editar(p);
+            acceso = listar;
+        } else if (action.equalsIgnoreCase("eliminar")) {
+            int IdCom = Integer.parseInt(request.getParameter("id"));
+            dao.eliminar(IdCom);
+            acceso = listar;
         }
-        RequestDispatcher vista=request.getRequestDispatcher(acceso);
+        RequestDispatcher vista = request.getRequestDispatcher(acceso);
         vista.forward(request, response);
     }
 

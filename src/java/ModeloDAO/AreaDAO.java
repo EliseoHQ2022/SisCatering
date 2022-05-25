@@ -41,22 +41,65 @@ public class AreaDAO implements IArea {
 
     @Override
     public Area list(int IdArea) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
+         String Sql="select * from area where IdArea="+IdArea;
+         try{
+            con = cn.getConnection();
+            ps = con.prepareStatement(Sql);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                a.setIdArea(rs.getInt("IdArea"));
+                a.setNomArea(rs.getString("NomArea"));
+            }
+         }
+         catch (Exception e){
+             
+         }
+         return a;
     }
 
     @Override
     public boolean agregar(Area ar) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String Sql="Insert into area (NomArea) values ('"+ ar.getNomArea() +"')";
+        try{
+            con=cn.getConnection();
+            ps=con.prepareStatement(Sql);
+            ps.executeUpdate();
+            
+        }
+        catch(Exception e){
+            
+        }
+        return false;    
     }
 
     @Override
     public boolean editar(Area ar) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String Sql="update area set NomArea ='"+ ar.getNomArea() +"' where idArea="+ar.getIdArea();
+        try{
+            con=cn.getConnection();
+            ps=con.prepareStatement(Sql);
+            ps.executeUpdate();
+            
+        }
+        catch(Exception e){
+            
+        }
+        return false;   
     }
 
     @Override
     public boolean eliminar(int IdArea) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String Sql="delete from area where idarea="+IdArea;
+        try{
+            con=cn.getConnection();
+            ps=con.prepareStatement(Sql);
+            ps.executeUpdate();
+        }
+        catch(Exception e){
+            
+        }
+        return false;    
     }
     
 }

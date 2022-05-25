@@ -6,6 +6,7 @@ public class Usuario {
     private String Nombre;
     private String NomUser;
     private String PasUser;
+    private String TipoUser;
 
     public Usuario() {
     }
@@ -18,8 +19,14 @@ public class Usuario {
         this.PasUser = PasUser;
     }
 
-    
-    
+    public String getTipoUser() {
+        return TipoUser;
+    }
+
+    public void setTipoUser(String TipoUser) {
+        this.TipoUser = TipoUser;
+    }
+     
     
     public int getIdUser() {
         return IdUser;

@@ -19,7 +19,7 @@
                                    
                                     <a href="./index.jsp?page=agregararea" class="btn btn-primary btn-sm">Nueva area</a>
 
-                                    <table class="mb-0 table" id="mitabla">
+                                    <table class="mb-0 table">
                                         <thead>
                                             <tr>
                                                 <th>Id</th>
@@ -46,16 +46,12 @@
 
                                         <tbody>
                                             <tr>
-                                                <th scope="row"><%=ar.getIdArea()%></th>
-                                               
-                                               
+                                                <th scope="row"><%=ar.getIdArea()%></th>                                              
                                                 <td><%=ar.getNomArea()%></td>
-                                               
-                                               
                                                 <td>
 
                                 <a href="ControladorArea?accion=editar&id=<%=ar.getIdArea()%>" title="Editar datos" class="btn btn-primary btn-sm"><span class="uil-edit" aria-hidden="true"></span></a>
-                                <a href="ControladorProducto?accion=eliminar&id=<%=ar.getIdArea()%>" title="Eliminar" onclick="return confirm('Esta seguro de eliminar?')" class="btn btn-danger btn-sm"><span class="uil-trash" aria-hidden="true"></span></a>
+                                <a href="ControladorArea?accion=eliminar&id=<%=ar.getIdArea()%>" title="Eliminar" onclick="return confirm('Esta seguro de eliminar?')" class="btn btn-danger btn-sm"><span class="uil-trash" aria-hidden="true"></span></a>
                             </td>
                                             </tr>
                                            <%}%>

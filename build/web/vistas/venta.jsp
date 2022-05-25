@@ -1,5 +1,9 @@
 
 
+<%@page import="java.util.Iterator"%>
+<%@page import="Modelo.Producto"%>
+<%@page import="java.util.List"%>
+<%@page import="ModeloDAO.ProductoDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="container-fluid">
 
@@ -10,42 +14,29 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="header-title">Seleccione el servicio</h4>
-
-
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <a href="./index.jsp?page=registrarventa">
+                        <%
+                            ProductoDAO dao = new ProductoDAO();
+                            List<Producto> list = dao.listar();
+                            Iterator<Producto> iter = list.iterator();
+                            Producto pr = null;
+                            while (iter.hasNext()) {
+                                pr = iter.next();
+
+                        %>
+                        <a href="ControladorVenta?accion=realizar&id=<%=pr.getIdPro()%>">
                             <div class="col">
                                 <div class="card">
-                                    <img src="./imagenes/productos/desayuno.jpg" class="card-img-top" height="200" alt="...">
+                                    <img src="./imagenes/productos/<%=pr.getImagen()%>" class="card-img-top" height="200" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Desayuno</h5>
+                                        <h5 class="card-title"><%=pr.getNomPro()%></h5>
 
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="">
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./imagenes/productos/almuerzo.jpg" class="card-img-top" height="200" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Almuerzo</h5>
+                        <%}%>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./imagenes/productos/cena.jpg" class="card-img-top" height="200" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Cena</h5>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
                     </div>
 
 

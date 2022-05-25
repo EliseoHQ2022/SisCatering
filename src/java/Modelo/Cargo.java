@@ -3,12 +3,12 @@ package Modelo;
 
 public class Cargo {
     private int IdCar;
-    private int NomCar;
+    private String NomCar;
     
     public Cargo(){
         
     }
-    public Cargo(int IdCar, int NomCar) {
+    public Cargo(int IdCar, String NomCar) {
         this.IdCar = IdCar;
         this.NomCar = NomCar;
     }
@@ -17,7 +17,7 @@ public class Cargo {
         return IdCar;
     }
 
-    public int getNomCar() {
+    public String getNomCar() {
         return NomCar;
     }
 
@@ -25,7 +25,7 @@ public class Cargo {
         this.IdCar = IdCar;
     }
 
-    public void setNomCar(int NomCar) {
+    public void setNomCar(String NomCar) {
         this.NomCar = NomCar;
     }
     

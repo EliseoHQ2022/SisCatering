@@ -40,11 +40,20 @@
     <c:when test="${action eq 'venta'}">
         <jsp:include page="vistas/venta.jsp"/>
     </c:when>
-    <c:when test="${action eq 'reportecomensal'}">
+    <c:when test="${action eq 'reporteporfecha'}">
         <jsp:include page="vistas/reportecomensal.jsp"/>
+    </c:when>
+     <c:when test="${action eq 'reportecomensal'}">
+        <jsp:include page="vistas/reporteresumido.jsp"/>
     </c:when>
     <c:when test="${action eq 'reporteproducto'}">
         <jsp:include page="vistas/reporteservicio.jsp"/>
+    </c:when>
+    <c:when test="${action eq 'usuario'}">
+        <jsp:include page="vistas/usuario.jsp"/>
+    </c:when>
+     <c:when test="${action eq 'agregarusuario'}">
+        <jsp:include page="vistas/agregarusuario.jsp"/>
     </c:when>
     <c:otherwise>
         
